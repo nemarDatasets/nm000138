@@ -1,0 +1,163 @@
+_dataset:
+  class: AlexMI
+  code: AlexandreMotorImagery
+  doi: 10.5281/zenodo.806022
+  interval:
+  - 0
+  - 3
+  n_subjects: 8
+  paradigm: imagery
+abstract: Motor imagery dataset from the PhD thesis on robust control of an effector via asynchronous EEG brain-machine interface
+  (Barachant, 2012). This shared dataset corresponds to Step B (cue-based imagery without feedback) of the Brain Switch campaign.
+  Contains recordings from 8 subjects performing 3 motor imagery tasks (right hand, feet, rest) with 20 trials per class.
+acquisition:
+  channel_types:
+    eeg: 16
+  hardware: g.tec g.USBamp
+  line_freq: 50.0
+  montage: standard_1005
+  n_channels: 16
+  reference: earlobe
+  sampling_rate: 512.0
+  sensor_type: EEG
+  sensors:
+  - Fpz
+  - F7
+  - F3
+  - Fz
+  - F4
+  - F8
+  - T7
+  - C3
+  - Cz
+  - C4
+  - T8
+  - P7
+  - P3
+  - Pz
+  - P4
+  - P8
+  software: Matlab/Simulink
+bci_application:
+  applications:
+  - motor_control
+  environment: laboratory
+cross_validation:
+  cv_method: cross-validation
+  evaluation_type:
+  - within_session
+data_processed: true
+data_structure:
+  n_trials: 60
+  n_trials_per_class:
+    feet: 20
+    rest: 20
+    right_hand: 20
+  trials_context: 20 trials per class, 3 second duration each
+documentation:
+  associated_paper_doi: tel-01196752v1
+  contact_info:
+  - alexandre.barachant@gmail.com
+  country: France
+  data_url: https://zenodo.org/record/806023
+  description: Motor imagery dataset from the PhD dissertation of A. Barachant. Contains EEG recordings from 8 subjects performing
+    motor imagination tasks (right hand, feet, or rest). Used to validate robust control of an effector via asynchronous EEG-based
+    brain-machine interface.
+  doi: 10.5281/zenodo.806022
+  institution: Université de Grenoble
+  institution_address: CEA-LETI Grenoble, France
+  institution_department: Laboratoire Électronique et système pour la santé CEA-LETI
+  investigators:
+  - Alexandre Barachant
+  keywords:
+  - brain-computer interface
+  - motor imagery
+  - EEG
+  - Riemannian geometry
+  - asynchronous BCI
+  - brain-switch
+  - covariance matrices
+  - Common Spatial Pattern
+  license: CC-BY-SA-4.0
+  publication_year: 2012
+  repository: Zenodo
+  senior_author: Alexandre Barachant
+experiment:
+  class_labels:
+  - right_hand
+  - feet
+  - rest
+  events:
+    feet: 3
+    rest: 4
+    right_hand: 2
+  feedback_type: none
+  instructions: Cue-based paradigm without feedback. Subjects perform 20 imagined movements per class (right hand, feet, rest)
+    following a visual cue, lasting 3 seconds each. Total duration approximately 10 minutes.
+  mode: offline
+  n_classes: 3
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  - auditory
+  stimulus_type: visual cue
+  study_design: Cue-based motor imagery paradigm (Step B of Brain Switch campaign) for familiarization and algorithm development
+  synchronicity: synchronous
+  trial_duration: 3.0
+file_format: fif
+methodology: 'Cue-based paradigm without feedback (Step B of Brain Switch campaign). EEG recorded at 512 Hz with 16 active
+  electrodes using a g.tec g.USBamp amplifier. Reference electrode placed on the ear. Subjects performed imagined movements
+  following visual cues: right hand, feet, and rest, 20 trials per class, 3 seconds each. Recorded in standard office conditions
+  (not shielded laboratory). Software: Matlab/Simulink with g.tec drivers.'
+paradigm_specific:
+  cue_duration_s: 1.0
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 3.0
+  imagery_tasks:
+  - right_hand
+  - feet
+  - rest
+participants:
+  health_status: healthy
+  n_subjects: 8
+  species: human
+preprocessing:
+  re_reference: earlobe
+runs_per_session: 1
+sessions_per_subject: 1
+signal_processing:
+  classifiers:
+  - LDA
+  - SVM
+  - MDM
+  - Riemannian
+  - kNN
+  - Naive Bayes
+  - Logistic Regression
+  feature_extraction:
+  - CSP
+  - FBCSP
+  - ERD
+  - ERS
+  - PSD
+  - Covariance/Riemannian
+  - AR
+  - ICA
+  frequency_bands:
+    alpha:
+    - 8.0
+    - 12.0
+    mu:
+    - 8.0
+    - 12.0
+  spatial_filters:
+  - CSP
+  - Geodesic filtering
+tags:
+  modality:
+  - Motor
+  pathology:
+  - Healthy
+  type:
+  - Research
