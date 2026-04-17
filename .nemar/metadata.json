@@ -1,0 +1,85 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Alexandre Barachant": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.806022",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000138",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000138",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    }
+  ],
+  "title": "Alex Motor Imagery dataset",
+  "license": "CC-BY-SA-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "104.4 MB (11 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".html",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "Motor imagery EEG dataset from 8 healthy subjects performing cue-based imagined movements (right hand, feet, rest) without feedback. Recorded at 512 Hz with 16 electrodes using g.tec g.USBamp hardware, this dataset comprises 60 trials (20 per class, 3 seconds each) and was designed to validate asynchronous brain-computer interface control. Data have been re-referenced to earlobe and are suitable for BCI algorithm development and benchmarking.",
+  "methods_description": "EEG data were acquired at 512 Hz sampling rate using 16 active electrodes (Fpz, F7, F3, Fz, F4, F8, T7, C3, Cz, C4, T8, P7, P3, Pz, P4, P8) in standard 1005 montage with g.tec g.USBamp amplifier. Reference electrode placed on earlobe. Subjects performed cue-based motor imagery tasks following visual cues: right hand, feet, and rest conditions, with 20 trials per class lasting 3 seconds each. Data were recorded using Matlab/Simulink software with g.tec drivers. Line frequency: 50 Hz. Data were re-referenced to earlobe.",
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Riemannian geometry"
+    },
+    {
+      "term": "Common Spatial Pattern"
+    },
+    {
+      "term": "covariance matrices"
+    },
+    {
+      "term": "asynchronous BCI"
+    },
+    {
+      "term": "brain-switch"
+    }
+  ],
+  "source_hash": "0114cacbe308e9c2a35bd4a7d8ebed75621cca07e0e70d1e75d941ed9c2edd45"
+}
