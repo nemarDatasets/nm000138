@@ -1,39 +1,41 @@
 {
-	"Name": "Alex Motor Imagery dataset",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC-BY-SA-4.0",
-	"Authors": [
-		"Alexandre Barachant"
-	],
-	"ReferencesAndLinks": [
-		"https://zenodo.org/record/806023",
-		"tel-01196752v1"
-	],
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.4.3"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.5281/zenodo.806022",
-			"URL": "https://zenodo.org/record/806023"
-		}
-	],
-	"Keywords": [
-		"brain-computer interface",
-		"motor imagery",
-		"EEG",
-		"Riemannian geometry",
-		"asynchronous BCI",
-		"brain-switch",
-		"covariance matrices",
-		"Common Spatial Pattern"
-	],
-	"PublicationYear": 2012
+  "Name": "Alex Motor Imagery dataset",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-SA-4.0",
+  "Authors": [
+    "Alexandre Barachant"
+  ],
+  "ReferencesAndLinks": [
+    "https://zenodo.org/record/806023",
+    "tel-01196752v1"
+  ],
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.4.3"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.5281/zenodo.806022",
+      "URL": "https://zenodo.org/record/806023"
+    }
+  ],
+  "Keywords": [
+    "brain-computer interface",
+    "motor imagery",
+    "EEG",
+    "Riemannian geometry",
+    "asynchronous BCI",
+    "brain-switch",
+    "covariance matrices",
+    "Common Spatial Pattern"
+  ],
+  "PublicationYear": 2012,
+  "DatasetDOI": "10.82901/nemar.nm000138",
+  "Version": "1.0.0"
 }
