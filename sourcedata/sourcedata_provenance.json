@@ -1,0 +1,54 @@
+{
+ "dataset": "nm000138",
+ "moabb_class": "AlexMI",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.AlexMI.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-alexeeg-data/zenodo/806023",
+ "license": "CC-BY-SA-4.0",
+ "doi": "10.5281/zenodo.806022",
+ "n_files": 8,
+ "total_bytes": 138420368,
+ "files": [
+  {
+   "file": "subject1.raw.fif",
+   "bytes": 17335744,
+   "sha256": "8e2897c11600687e34e3719d41c369365f86f97f0c1399cc246730e4f816bd93"
+  },
+  {
+   "file": "subject2.raw.fif",
+   "bytes": 17151792,
+   "sha256": "24d5a755da7884424b3fa7318d7decc2b42098a30cda9c8da45231ae14e88a39"
+  },
+  {
+   "file": "subject3.raw.fif",
+   "bytes": 17151792,
+   "sha256": "0ae95dac4c432cf4ecc7fb225593a84ffa6a4049c2d4f77fccc8b93e1ee85734"
+  },
+  {
+   "file": "subject4.raw.fif",
+   "bytes": 17151792,
+   "sha256": "0bcd939780b098bf889da8b2bd882891ddc339dadd0b9b2f6cb659d3d40b73f8"
+  },
+  {
+   "file": "subject5.raw.fif",
+   "bytes": 17340096,
+   "sha256": "e9eef9c93bd2157940fa6681dbea27ce37ec9cbd890e21c8fb91f6a1aea2bc87"
+  },
+  {
+   "file": "subject6.raw.fif",
+   "bytes": 17479424,
+   "sha256": "2cfa5e1290f2648795354e43b8affac1ea562f3edafe39cf9c888ffe113d4800"
+  },
+  {
+   "file": "subject7.raw.fif",
+   "bytes": 17435888,
+   "sha256": "6291ad40703ef2e341f49a76510d8fed63af2dc6ce598b531e7615745c86525d"
+  },
+  {
+   "file": "subject8.raw.fif",
+   "bytes": 17373840,
+   "sha256": "33e365add854908899d22898fcda1635e04bd865e28a81e0bd8c5bb0fe0550f4"
+  }
+ ]
+}
