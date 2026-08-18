@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Alex Motor Imagery dataset",
-  "description": "Motor imagery EEG dataset from 8 healthy subjects performing cue-based imagined movements (right hand, feet, rest) without feedback. Recorded at 512 Hz with 16 electrodes using g.tec g.USBamp hardware, containing 60 trials (20 per class) of 3-second duration each. This dataset was used to validate robust asynchronous EEG-based brain-machine interface control and represents Step B of the Brain Switch campaign.",
+  "description": "Motor imagery EEG dataset from 8 healthy subjects performing cue-based imagined movements (right hand, feet, rest) without feedback. Recorded at 512 Hz with 16 electrodes using g.tec g.USBamp hardware, containing 60 trials (20 per class) of 3-second duration each. This dataset was used to validate robust asynchronous EEG-based brain-computer interface control and represents Step B of the Brain Switch campaign.",
   "methods_description": "EEG data acquired at 512 Hz sampling rate using 16 active electrodes (Fpz, F7, F3, Fz, F4, F8, T7, C3, Cz, C4, T8, P7, P3, Pz, P4, P8) in standard 1005 montage with g.tec g.USBamp amplifier. Reference electrode placed on earlobe. Cue-based motor imagery paradigm without feedback: subjects performed 20 imagined movements per class (right hand, feet, rest) following visual cues, each trial lasting 3 seconds. Data preprocessed and re-referenced to earlobe.",
   "license": "CC-BY-SA-4.0",
   "dataset_type": "derivative",
@@ -80,5 +80,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "03d0122b8ff83eeecb6cd641e8dee49d391662151e1a8d6fc17e633b5d7b226a"
+  "source_hash": "9fa204ffa9b6b83df0615b3d841f3c282ab44b05d76215ae29ec5307592ba21b"
 }
