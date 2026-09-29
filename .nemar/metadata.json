@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Alex Motor Imagery dataset",
-  "description": "Motor imagery EEG dataset from 8 healthy subjects performing cue-based imagined movements (right hand, feet, rest) without feedback. Recorded at 512 Hz with 16 electrodes using g.tec g.USBamp hardware, containing 60 trials (20 per class) of 3-second duration each. This dataset was used to validate robust asynchronous EEG-based brain-computer interface control and represents Step B of the Brain Switch campaign.",
-  "methods_description": "EEG data acquired at 512 Hz sampling rate using 16 active electrodes (Fpz, F7, F3, Fz, F4, F8, T7, C3, Cz, C4, T8, P7, P3, Pz, P4, P8) in standard 1005 montage with g.tec g.USBamp amplifier. Reference electrode placed on earlobe. Cue-based motor imagery paradigm without feedback: subjects performed 20 imagined movements per class (right hand, feet, rest) following visual cues, each trial lasting 3 seconds. Data preprocessed and re-referenced to earlobe.",
+  "description": "EEG recordings from 8 healthy participants performing cue-based motor imagery of the right hand, feet, and rest, with 20 trials per class. The data were collected for the PhD thesis of A. Barachant on robust control of an effector through an asynchronous EEG brain-machine interface, and correspond to Step B (cue-based imagery without feedback) of the Brain Switch campaign. They are intended for familiarization and algorithm development, including Riemannian geometry and CSP-based classification.",
+  "methods_description": "EEG was recorded at 512 Hz from 16 active electrodes with a g.tec g.USBamp amplifier, referenced to the earlobe, in standard office conditions. Subjects imagined right hand movement, foot movement, or rest following visual cues lasting 3 seconds, with 20 trials per class and no feedback. Acquisition used Matlab/Simulink with g.tec drivers.",
   "license": "CC-BY-SA-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -11,28 +11,27 @@
   },
   "keywords": [
     {
+      "term": "EEG"
+    },
+    {
       "term": "motor imagery"
     },
     {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "EEG"
+      "term": "brain-computer interface"
     },
     {
       "term": "Riemannian geometry"
     },
     {
+      "term": "asynchronous BCI"
+    },
+    {
       "term": "Common Spatial Pattern"
     },
     {
-      "term": "covariance matrices"
-    },
-    {
-      "term": "asynchronous BCI"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
@@ -68,7 +67,7 @@
     "eeg"
   ],
   "sizes": [
-    "242.8 MB (19 files)"
+    "232 MB (19 files)"
   ],
   "formats": [
     ".bdf",
